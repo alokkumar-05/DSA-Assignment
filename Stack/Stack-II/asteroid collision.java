@@ -6,7 +6,7 @@ Problem Number: LeetCode 735
 Problem Link: https://leetcode.com/problems/asteroid-collision/
 */
 
-public class Solution {
+ class Solution {
     // Function to simulate asteroid collisions
     public int[] asteroidCollision(int[] asteroids) {
         Stack<Integer> stack = new Stack<>();
