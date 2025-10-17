@@ -1,4 +1,5 @@
-package LinkedList;
+
+
 
 /*
 Problem Name: Design Linked List
@@ -6,7 +7,7 @@ Problem Number: LeetCode 707
 Problem Link: https://leetcode.com/problems/design-linked-list/
 */
 
-public class MyLinkedList {
+ class MyLinkedList {
     // Node class for singly linked list
     private class Node {
         int val;
