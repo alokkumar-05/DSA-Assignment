@@ -42,12 +42,6 @@ class TreeNode {
 
         return null;
     }
-
-    public static void main(String[] args) {
-        int[][] desc = {{1,2,1},{1,3,0},{2,4,1}};
-        TreeNode root = createBinaryTree(desc);
-        System.out.println("Root value: " + root.val); // Output: 1
-    }
 }
 
 /*
