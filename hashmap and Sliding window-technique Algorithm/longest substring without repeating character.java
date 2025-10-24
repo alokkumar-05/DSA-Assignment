@@ -1,9 +1,10 @@
+import java.util.*;
 /*
 Problem Name: Longest Substring Without Repeating Characters
 Problem Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 */
 
-public class LongestSubstring {
+ class LongestSubstring {
 
     public static int lengthOfLongestSubstring(String s) {
         Set<Character> set = new HashSet<>();
