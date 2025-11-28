@@ -14,7 +14,7 @@ class TrieNode {
 
  class Trie {
 
-    private TrieNode root;
+    private final TrieNode root;
 
     // Step 1: Initialize Trie
     public Trie() {
