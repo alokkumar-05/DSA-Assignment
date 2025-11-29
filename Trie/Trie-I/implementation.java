@@ -16,12 +16,12 @@ class TrieNode {
 
     private final TrieNode root;
 
-    // Step 1: Initialize Trie
+    // Initialize Trie
     public Trie() {
         root = new TrieNode();
     }
 
-    // Step 2: Insert word into Trie
+    //  Insert word into Trie
     public void insert(String word) {
         TrieNode node = root;
         for (char ch : word.toCharArray()) {
@@ -33,7 +33,7 @@ class TrieNode {
         node.isEnd = true;
     }
 
-    // Step 3: Search exact word
+    //  Search exact word
     public boolean search(String word) {
         TrieNode node = root;
         for (char ch : word.toCharArray()) {
@@ -44,7 +44,7 @@ class TrieNode {
         return node.isEnd;
     }
 
-    // Step 4: Check if any word starts with given prefix
+    // Check if any word starts with given prefix
     public boolean startsWith(String prefix) {
         TrieNode node = root;
         for (char ch : prefix.toCharArray()) {
@@ -55,7 +55,7 @@ class TrieNode {
         return true;
     }
 
-    // Step 5: Example test
+    //  Example test
     public static void main(String[] args) {
         Trie trie = new Trie();
         trie.insert("apple");
